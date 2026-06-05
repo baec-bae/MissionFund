@@ -39,22 +39,20 @@ url('hero-bg.jpg.jpg');
 position:relative;
 }
 
+.hero .container{
+position:relative;
+}
+
 .hero-logo-link{
 position:absolute;
-top:35px;
-left:60px;
+top:-80px;
+left:0;
 z-index:100;
 }
 
 .hero-logo{
 height:55px;
 width:auto;
-transition:0.3s;
-}
-
-.hero-logo:hover{
-opacity:0.9;
-transform:scale(1.05);
 }
   
 background-size:cover;
@@ -279,6 +277,8 @@ font-size:2rem;
 
 <section class="hero">
 
+<div class="container">
+
 <a href="https://www.missionfund.org"
 target="_blank"
 class="hero-logo-link">
@@ -288,8 +288,6 @@ alt="MissionFund"
 class="hero-logo">
 
 </a>
-  
-<div class="container">
 
 <h1 class="main-title">
 교회 선교사 파송<br>
