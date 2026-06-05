@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>교회 선교부 운영 지원 서비스 | 미션펀드</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<title>선교사 파송 지원 | 미션펀드</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Pretendard',sans-serif;
+font-family:'Noto Sans KR',sans-serif;
 }
 
 body{
@@ -27,10 +27,6 @@ max-width:1200px;
 margin:auto;
 }
 
-section{
-padding:100px 0;
-}
-
 .hero{
 background:linear-gradient(135deg,#0b4ea2,#0e72d8);
 color:white;
@@ -38,72 +34,70 @@ text-align:center;
 padding:140px 20px;
 }
 
-.hero h1{
-font-size:3rem;
-font-weight:800;
+.main-title{
+font-size:5rem;
+font-weight:900;
+line-height:1.1;
+letter-spacing:-3px;
+text-shadow:0 8px 30px rgba(0,0,0,0.3);
 margin-bottom:25px;
 }
 
-.hero p{
-font-size:1.2rem;
+.sub-title{
+font-size:1.4rem;
+opacity:0.95;
 max-width:800px;
 margin:auto;
-opacity:0.95;
 }
 
 .btn{
 display:inline-block;
 margin-top:40px;
+padding:18px 40px;
 background:#ffb400;
 color:#000;
-padding:18px 35px;
-border-radius:10px;
 text-decoration:none;
 font-weight:700;
+border-radius:12px;
 font-size:1.1rem;
-transition:.3s;
 }
 
 .btn:hover{
-transform:translateY(-3px);
+opacity:0.9;
+}
+
+section{
+padding:90px 0;
 }
 
 .section-title{
 text-align:center;
-font-size:2.2rem;
+font-size:2.5rem;
 font-weight:800;
 margin-bottom:60px;
 }
 
-.problem-list{
-max-width:900px;
-margin:auto;
-}
-
-.problem-list li{
-list-style:none;
-font-size:1.15rem;
-padding:18px;
-margin-bottom:15px;
-background:#f5f7fb;
-border-radius:10px;
-}
-
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
 }
 
 .card{
-padding:35px;
-background:#f8f9fc;
-border-radius:15px;
+padding:40px;
+border-radius:20px;
+background:#f7f9fc;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
 
 .card h3{
+font-size:1.5rem;
 margin-bottom:15px;
-font-size:1.3rem;
+color:#0b4ea2;
+}
+
+.card p{
+font-size:1.05rem;
 }
 
 .benefits{
@@ -119,108 +113,66 @@ border-radius:15px;
 }
 
 .benefit h4{
-font-size:1.2rem;
-margin-bottom:10px;
 color:#0b4ea2;
+margin-bottom:10px;
+font-size:1.2rem;
 }
 
-.example{
-background:#f8f9fc;
-border-radius:20px;
-padding:40px;
-}
-
-.example-grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-margin-top:30px;
-}
-
-.example-box{
-background:white;
-padding:30px;
-border-radius:15px;
-}
-
-.example-box h3{
-margin-bottom:15px;
-}
-
-.target-list{
-max-width:900px;
-margin:auto;
-}
-
-.target-list li{
-list-style:none;
-padding:18px;
-background:#f5f7fb;
-margin-bottom:15px;
-border-radius:10px;
-font-size:1.1rem;
-}
-
-.cta-banner{
-background:linear-gradient(135deg,#0b4ea2,#0e72d8);
-color:white;
+.cta{
+background:#f5f8ff;
 text-align:center;
-padding:80px 20px;
+padding:100px 20px;
 }
 
-.cta-banner h2{
-font-size:2.2rem;
+.cta h2{
+font-size:2.5rem;
 margin-bottom:20px;
 }
 
 .footer{
 background:#111;
 color:white;
-padding:50px 20px;
 text-align:center;
-}
-
-.footer p{
-margin:8px 0;
+padding:50px 20px;
 }
 
 @media(max-width:768px){
 
-.hero h1{
-font-size:2rem;
+.main-title{
+font-size:3rem;
+letter-spacing:-1px;
+}
+
+.sub-title{
+font-size:1rem;
 }
 
 .section-title{
-font-size:1.7rem;
-}
-
-.example-grid{
-grid-template-columns:1fr;
+font-size:2rem;
 }
 
 }
+
 </style>
 </head>
 
 <body>
 
-<!-- HERO -->
-
 <section class="hero">
 
 <div class="container">
 
-<h1>
-선교부 인력은 부족한데,<br>
-선교 참여는 늘리고 싶으신가요?
+<h1 class="main-title">
+선교사 파송<br>
+도와드립니다
 </h1>
 
-<p>
-선교사 관리, 소식 전달, 후원 시스템 구축까지.<br>
-미션펀드가 교회 선교부의 운영 파트너가 되어드립니다.
+<p class="sub-title">
+선교사 추천부터 파송 행정, 파송 비용 지원까지<br>
+미션펀드가 교회와 함께합니다.
 </p>
 
-<a href="여기에_구글폼_URL_입력"
+<a href="여기에_구글폼_URL"
 class="btn"
 target="_blank">
 무료 상담 신청하기
@@ -230,93 +182,59 @@ target="_blank">
 
 </section>
 
-<!-- SECTION 1 -->
-
 <section>
 
 <div class="container">
 
 <h2 class="section-title">
-이런 고민이 있으신가요?
-</h2>
-
-<ul class="problem-list">
-
-<li>✓ 선교사 소식을 정리하고 공유하기 어렵다</li>
-
-<li>✓ 선교부 전담 인력이 부족하다</li>
-
-<li>✓ 성도들의 선교 관심과 후원이 줄어들고 있다</li>
-
-<li>✓ 선교 프로젝트를 운영할 시간이 부족하다</li>
-
-<li>✓ 선교사와 교회 간 소통이 원활하지 않다</li>
-
-<li>✓ NGO 단체가 하는 일을 교회에서도 하고 싶지만 방법을 모르겠다</li>
-
-<li>✓ 선교와 나눔 사역을 더 체계적으로 지원하고 싶다</li>
-
-</ul>
-
-</div>
-
-</section>
-
-<!-- SECTION 2 -->
-
-<section style="background:#fafafa;">
-
-<div class="container">
-
-<h2 class="section-title">
-미션펀드가 해결합니다
+선교사 파송 이렇게 도와드립니다
 </h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>선교사 관리</h3>
+
+<h3>
+① 파송 행정 지원
+</h3>
+
 <p>
-선교사 정보 관리<br>
-기도제목 정리<br>
-정기 소식 업데이트
+선교사 파송 과정에서 필요한
+행정 업무와 준비 과정을
+미션펀드가 함께 지원합니다.
 </p>
+
 </div>
 
 <div class="card">
-<h3>콘텐츠 제작</h3>
+
+<h3>
+② 파송 비용 지원
+</h3>
+
 <p>
-카드뉴스 제작<br>
-영상 콘텐츠 제작<br>
-뉴스레터 제작
+후원 프로젝트 개설,
+모금 시스템 구축,
+홍보 콘텐츠 제작을 통해
+선교사 파송 비용 마련을 돕습니다.
 </p>
+
 </div>
 
 <div class="card">
-<h3>후원 시스템 구축</h3>
-<p>
-QR 후원<br>
-개인 후원 페이지<br>
-프로젝트 모금
-</p>
-</div>
 
-<div class="card">
-<h3>온라인 선교관</h3>
-<p>
-교회 전용 선교관 구축<br>
-선교사 소개<br>
-후원 현황 공유
-</p>
-</div>
+<h3>
+③ 선교사 추천
+</h3>
 
-<div class="card">
-<h3>홍보 지원</h3>
 <p>
-신청 시 선별을 통한<br>
-동영상 제작 및<br>
-Google · YouTube 홍보 진행
+교회가 원하는 국가,
+사역 분야,
+선교 형태에 맞추어
+파송 가능한 선교사를
+추천해드립니다.
 </p>
+
 </div>
 
 </div>
@@ -325,9 +243,7 @@ Google · YouTube 홍보 진행
 
 </section>
 
-<!-- SECTION 3 -->
-
-<section>
+<section style="background:#fafafa;">
 
 <div class="container">
 
@@ -338,33 +254,51 @@ Google · YouTube 홍보 진행
 <div class="benefits">
 
 <div class="benefit">
-<h4>01. 선교 참여율 증가</h4>
-<p>체계적인 콘텐츠와 후원 시스템을 통해 참여율 향상</p>
+<h4>01. 안정적인 선교사 파송</h4>
+<p>
+교회가 보다 체계적으로
+선교사를 파송할 수 있습니다.
+</p>
 </div>
 
 <div class="benefit">
-<h4>02. 교인들의 선교 관심도 향상</h4>
-<p>정기적인 선교 소식 제공</p>
+<h4>02. 성도들의 선교 참여 확대</h4>
+<p>
+선교에 대한 관심과 참여가
+자연스럽게 높아집니다.
+</p>
 </div>
 
 <div class="benefit">
-<h4>03. 선교부 행정업무 감소</h4>
-<p>실무 부담 최소화</p>
+<h4>03. 행정 부담 감소</h4>
+<p>
+선교부의 실무 부담을
+줄일 수 있습니다.
+</p>
 </div>
 
 <div class="benefit">
 <h4>04. 선교사와 교회 소통 강화</h4>
-<p>지속적인 연결 구조 형성</p>
+<p>
+정기적인 소통과 연결을
+지원합니다.
+</p>
 </div>
 
 <div class="benefit">
-<h4>05. 프로젝트 모금 활성화</h4>
-<p>후원 접근성 개선</p>
+<h4>05. 파송 비용 부담 완화</h4>
+<p>
+모금 지원을 통해
+재정 부담을 덜 수 있습니다.
+</p>
 </div>
 
 <div class="benefit">
-<h4>06. 교회 선교 브랜드 강화</h4>
-<p>전문적인 콘텐츠와 시스템 구축</p>
+<h4>06. 건강한 선교 시스템 구축</h4>
+<p>
+지속 가능한 선교 환경을
+만들어갑니다.
+</p>
 </div>
 
 </div>
@@ -373,96 +307,22 @@ Google · YouTube 홍보 진행
 
 </section>
 
-<!-- SECTION 4 -->
+<section class="cta">
 
-<section style="background:#fafafa;">
-
-<div class="container">
-
-<h2 class="section-title">
-운영 예시
+<h2>
+무료 상담 신청
 </h2>
 
-<div class="example">
-
-<div class="example-grid">
-
-<div class="example-box">
-
-<h3>기존 운영 방식</h3>
-
 <p>
-• 선교사 관리<br>
-• 소식 전달<br>
-• 후원 요청<br>
-• 보고서 작성<br>
-• 프로젝트 운영
+교회 상황에 맞는 선교사 추천 및<br>
+파송 지원 방안을 안내해드립니다.
 </p>
 
-</div>
-
-<div class="example-box">
-
-<h3>미션펀드 도입 후</h3>
-
-<p>
-교회는<br>
-• 선교 전략<br>
-• 기도 사역<br>
-• 선교사 케어 집중<br><br>
-
-미션펀드는<br>
-• 운영 지원<br>
-• 콘텐츠 제작<br>
-• 후원 시스템 구축<br>
-• 홍보 지원
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- SECTION 5 -->
-
-<section>
-
-<div class="container">
-
-<h2 class="section-title">
-이런 교회에 추천합니다
-</h2>
-
-<ul class="target-list">
-
-<li>✓ 선교사 1명 이상 후원 중인 교회</li>
-
-<li>✓ 선교부 인력이 부족한 교회</li>
-
-<li>✓ 선교사 소식 전달이 어려운 교회</li>
-
-<li>✓ 프로젝트 모금을 진행하고 싶은 교회</li>
-
-<li>✓ 선교 참여율을 높이고 싶은 교회</li>
-
-</ul>
-
-<div style="text-align:center;margin-top:60px;">
-
-<a href="여기에_구글폼_URL_입력"
+<a href="여기에_구글폼_URL"
 class="btn"
 target="_blank">
-무료 상담 신청하기
+상담 신청하기
 </a>
-
-</div>
-
-</div>
 
 </section>
 
@@ -470,11 +330,20 @@ target="_blank">
 
 <h2>미션펀드</h2>
 
-<p>선교의 사명은 교회가, 운영은 미션펀드가 함께합니다.</p>
+<p>
+선교의 사명은 교회가,<br>
+운영은 미션펀드가 함께합니다.
+</p>
 
-<p>상담문의 : 070-7874-0896</p>
+<br>
 
-<p>www.missionfund.org</p>
+<p>
+상담문의 : 070-7874-0896
+</p>
+
+<p>
+www.missionfund.org
+</p>
 
 </footer>
 
