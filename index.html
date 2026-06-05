@@ -28,6 +28,8 @@ margin:auto;
 }
 
 .hero{
+position:relative;
+
 background-image:
 linear-gradient(
 rgba(0,20,60,0.45),
@@ -35,8 +37,13 @@ rgba(0,20,60,0.45)
 ),
 url('hero-bg.jpg.jpg');
 
-.hero{
-position:relative;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+color:white;
+text-align:center;
+padding:140px 20px;
 }
 
 .hero .container{
@@ -48,11 +55,19 @@ position:absolute;
 top:-80px;
 left:0;
 z-index:100;
+display:block;
 }
 
 .hero-logo{
 height:55px;
 width:auto;
+display:block;
+transition:0.3s;
+}
+
+.hero-logo:hover{
+opacity:0.9;
+transform:scale(1.05);
 }
   
 background-size:cover;
